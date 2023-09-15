@@ -10,7 +10,7 @@ The encode_text function is responsible for encoding a user-provided text messag
 - Takes the input text from a tkinter Text widget.
 - Checks if the text length exceeds 32 characters and displays an error if it does.
 - For each character in the input text, it encodes the character into a numeric value based on the charmap.
-- Generates random X and Y coordinates for each character's position in the image.
+- Generates an X and Y coordinates for each character's position in the image.
 - Creates a 256x256 pixel image with a blue background.
 - Embeds the encoded characters into the image at their respective coordinates.
 - Prompts the user to save the encoded image as a PNG file.
